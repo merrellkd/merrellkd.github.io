@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: abs;
+    background-color: black;
+}
+
+.gonna{
+    color: yellow;
+    position: absolute;
+    left: calc(13%);
+}
+
+.container{
+    position: inherit
+}
+.square {
+    border-radius: 30px;
+    background-color: red;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square h1 {
+    color: yellow;
+    text-align: center;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.days {
+    position: absolute;
+    top: calc(13%);
+    bottom: calc(60%);
+    left: calc(9%);
+    right: calc(67%);
+    font-size: 2rem;
+}
+.days h1 {
+    font-size: 1rem;
+}
+
+.hours {
+    position: absolute;
+    top: calc(45%);
+    bottom: calc(30%);
+    left: calc(10%);
+    right: calc(60%);
+    font-size: 3rem;
+}
+.hours h1 {
+    font-size: 1.5rem;
+}
+
+.minutes {
+    position: absolute;
+    top: calc(14%);
+    bottom: calc(56%);
+    left: calc(40%);
+    right: calc(20%);
+    font-size: 3rem;
+}
+.minutes h1 {
+    font-size: 2rem;
+}
+
+
+.seconds {
+    position: absolute;
+    top: calc(50%);
+    bottom: calc(12%);
+    left: calc(44%);
+    right: calc(4%);
+    font-size: 3rem;
+}
+h1{
+    font-family: 'Handlee', cursive;
+}
+.seconds h1 {
+    font-size: 2.5rem;
+}
+
+#seconds {
+    font-size: 9rem;
+}
+
+#minutes {
+    font-size: 6rem;
+}
+
+#hours {
+    font-size: 5rem;
+}
+
+#days {
+    font-size: 4rem;
+}
+
+.square>div {
+    font-family: 'Anonymous Pro', monospace;
+    color: yellow;
+    text-align: center;
+}
